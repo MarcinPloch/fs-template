@@ -5,7 +5,7 @@ import { getPublishDate } from '@finsweet/ts-utils';
  * Greets the user by printing a message in the console.
  * @param name The user's name.
  */
-export const greetUser = (name: string) => {
+export const greetUser = (name: number) => {
   const publishDate = getPublishDate();
 
   console.log(`Hello ${name}!`);
